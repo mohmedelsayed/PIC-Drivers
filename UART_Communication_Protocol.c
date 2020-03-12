@@ -1,5 +1,5 @@
 
-#include "uart.h"
+#include "UART_Communication_Protocol.h"
 
 void uart_initialization(void){
     RCSTA_REG.Register_Bits.Bit7 = 1; // As per DataSheet
