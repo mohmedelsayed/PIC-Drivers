@@ -1,5 +1,5 @@
 
-#include "lcd_8bit.h"
+#include "LCD_8_BIT_Mode.h"
 
 static void lcd_send_eneble(void){
     LCD_EN = ON;
