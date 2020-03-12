@@ -15,7 +15,7 @@ void uart_initialization(void){
     RCSTA_REG.Register_Bits.Bit6 = 0; // Selects 8-bit reception
     RCSTA_REG.Register_Bits.Bit4 = 1; // Enables receiver
     // ==============================
-    BAUDCON_REG.Register_Bits.Bit3 = 0; // 8-bit Baud Rate Generator – SPBRG only
+    BAUDCON_REG.Register_Bits.Bit3 = 0; // 8-bit Baud Rate Generator â€“ SPBRG only
     // ==============================
     SPBRG_REG.Register = 25; // 9600 Bit/sec
 }
