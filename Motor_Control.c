@@ -1,5 +1,5 @@
 
-#include "motor.h"
+#include "Motor_Control.h"
 
 void motor_config(Register_t *reg1, Register_t *reg2, uint8_t val1, uint8_t val2){
     Write_To_register(reg1, val1);
