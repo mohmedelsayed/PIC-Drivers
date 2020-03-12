@@ -1,5 +1,5 @@
-#include "interrupt.h"
-#include "dio.h"
+#include "All_Interrupt_Services.h"
+#include "reg.h"
 
 void interrupt_priority_en_ds(_Interrupt_Pr_T state){
     if(state == INTERRUPT_PR_ENABLE){
