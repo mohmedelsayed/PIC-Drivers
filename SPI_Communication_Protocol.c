@@ -1,5 +1,5 @@
 
-#include "spi.h"
+#include "SPI_Communication_Protocol.h"
 
 void SPI_Init_Advanced_Lib(spi_mode_ut master_slav, sample_bit_ut data_sample, clock_polarity_ut clock_idle, clock_select_ut transmit_edge){
     if(_SPI_DATA_SAMPLE_MIDDLE_L == data_sample){
